@@ -26,7 +26,8 @@ disqualified_players_info = []
 # Initializing list to store valid scores for each round
 round_valid_scores = [[] for _ in range(4)]  # There are 4 rounds
 
-# Process each player to separate disqualified players from those who will be included in the statistics
+
+# Processing each player to separate disqualified players from those who will be included in the statistics
 for player in players:
     name, scores, disqualified_rounds = player
     if disqualified_rounds:
